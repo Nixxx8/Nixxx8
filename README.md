@@ -45,3 +45,10 @@
 <div align="center">
   <img src="https://i.pinimg.com/originals/d8/f0/c8/d8f0c806473439d16d691a5fe7138307.gif" width="100%" style="border-radius: 8px;" alt="Tech Banner" />
 </div>
+
+
+---
+
+<div align="center">
+  <img src="https://github.com/Nixxx8/Nixxx8/raw/output/snake.svg" alt="Snake animation" />
+</div>
