@@ -47,8 +47,3 @@
 </div>
 
 
----
-
-<div align="center">
-  <img src="https://github.com/Nixxx8/Nixxx8/raw/output/snake.svg" alt="Snake animation" />
-</div>
