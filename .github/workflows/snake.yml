@@ -1,12 +1,18 @@
 name: Generate Snake
 
 on:
-  # Se ejecuta automáticamente cada 24 horas (a la medianoche)
+  # Se ejecuta automáticamente cada 24 horas
   schedule:
     - cron: "0 0 * * *" 
   
-  # Permite ejecutarlo manualmente desde la pestaña Actions
+  # Se permite ejecutar manual
   workflow_dispatch:
+  
+  # SE EJECUTA AL GUARDAR ESTE ARCHIVO (Para forzar que aparezca)
+  push:
+    branches:
+      - main
+      - master
 
 jobs:
   build:
@@ -18,9 +24,7 @@ jobs:
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
-          # Nombre de usuario de GitHub
           github_user_name: Nixxx8
-          # Genera la serpiente en modo oscuro (Dark Mode)
           outputs: dist/snake.svg?palette=github-dark
 
       - name: Push to output branch
